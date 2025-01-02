@@ -1,0 +1,779 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+
+
+
+:root 
+
+{
+
+/*------------------- PROJECT COLOR ROOT----------------------*/
+
+
+--main: #999d9e;
+--main-950:  #2A2C2D;
+--main-900:  #4C4E4F;
+--main-800:  #585B5C;
+--main-700:  #686D6E;
+--main-600:  #7E8384;
+--main-500:  #999D9E;
+--main-400:  #B1B4B5;
+--main-300:  #CFD2D2;
+--main-200:  #E4E6E6;
+--main-100:  #F1F2F2;
+--main-50:  #F7F8F8;
+
+
+--pop: #455ce9;
+--pop-950:  #1C1B50;
+--pop-900:  #252783;
+--pop-800:  #2928A5;
+--pop-700:  #2A2DCB;
+--pop-600:  #323FDE;
+--pop-500:  #455CE9;
+--pop-400:  #6A86F0;
+--pop-300:  #9AAFF6;
+--pop-200:  #C3CEFA;
+--pop-100:  #DDE3FC;
+--pop-50:  #F0F3FE;
+
+
+--compliment: #c9f7fa;
+--compliment-950:  #0C3240;
+--compliment-900:  #1B4E5E;
+--compliment-800:  #1B5D6F;
+--compliment-700:  #177287;
+--compliment-600:  #138EA7;
+--compliment-500:  #14B0C6;
+--compliment-400:  #30CDE0;
+--compliment-300:  #71E3EF;
+--compliment-200:  #ABF0F6;
+--compliment-100:  #C9F7FA;
+--compliment-50:  #EDFDFE;
+
+
+
+
+
+
+/*------------------- GENERAL COLOR ROOT----------------------*/
+
+--white:  #ffffff;
+--text-grey: #828282;
+--text-black: #000000;
+--footer-color: #454545;
+--background-color: #ffffff;
+--black-first:  #000000;
+--black-second:  #1c1d20;
+
+
+--system-bg: #2C2C2C;
+--system-bg-950:  #2C2C2C;
+--system-bg-900:  #3D3D3D;
+--system-bg-800:  #454545;
+--system-bg-700:  #4F4F4F;
+--system-bg-600:  #ffffff;
+--system-bg-500:  #ffffff;
+--system-bg-400:  #ffffff;
+--system-bg-300:  #ffffff;
+--system-bg-200:  #ffffff;
+--system-bg-100:  #ffffff;
+--system-bg-50:  #ffffff;
+
+
+--transparent-white:  #ffffffe6;
+--transparent-white-900:  #ffffffc8;
+--transparent-white-800:  #ffffffb3;
+--transparent-white-700:  #ffffff8b;
+--transparent-white-600:  #ffffff6d;
+--transparent-white-500:  #ffffff66;
+--transparent-white-400:  #ffffff4b;
+--transparent-white-300:  #ffffff2c;
+--transparent-white-200:  #ffffff18;
+--transparent-white-100:  #ffffff0f;
+--transparent-white-50:  #ffffff05;
+
+
+
+--grey:  #D9D9D9;
+--grey-950:  #363636;
+--grey-900:  #545454;
+--grey-800:  #676767;
+--grey-700:  #7B7B7B;
+--grey-600:  #888888;
+--grey-500:  #999999;
+--grey-400:  #ADADAD;
+--grey-300:  #C8C8C8;
+--grey-200:  #D9D9D9;
+--grey-100:  #EDEDED;
+--grey-50:  #F7F7F7;
+
+
+--brown:  #633102;
+--brown-950:  #633102;
+--brown-900:  #78450B;
+--brown-800:  #8E5505;
+--brown-700:  #AD6D00;
+--brown-600:  #D99A00;
+--brown-500:  #FBC900;
+--brown-400:  #FFE304;
+--brown-300:  #FFF339;
+--brown-200:  #FFFD81;
+--brown-100:  #FEFFBF;
+--brown-50:  #FFFEE6;
+
+
+--red:  #b01a1a;
+--red-950:  #450A0A;
+--red-900:  #7F1D1D;
+--red-800:  #991B1B;
+--red-700:  #B01A1A;
+--red-600:  #DD2525;
+--red-500:  #F04343;
+--red-400:  #F97070;
+--red-300:  #FCA5A5;
+--red-200:  #FECACA;
+--red-100:  #FEE2E2;
+--red-50:  #FEF2F2;
+
+
+--pink: #d21856;
+--pink-950:  #51061E;
+--pink-900:  #84173A;
+--pink-800:  #9F1542;
+--pink-700:  #D21856;
+--pink-600:  #DD2568;
+--pink-500:  #EE468B;
+--pink-400:  #F670AB;
+--pink-300:  #FAA7CD;
+--pink-200:  #FCCEE4;
+--pink-100:  #FCE7F1;
+--pink-50:  #FDF2F7;
+
+
+--yellow:  #f7c94b;
+--yellow-950:  #431905;
+--yellow-900:  #753312;
+--yellow-800:  #8E3D12;
+--yellow-700:  #AF4F0E;
+--yellow-600:  #D3700C;
+--yellow-500:  #EF9511;
+--yellow-400:  #F5B52A;
+--yellow-300:  #F7C94B;
+--yellow-200:  #FAE08D;
+--yellow-100:  #FDF0C8;
+--yellow-50:  #FEFAEC;
+
+
+--purple: #7e09d7;
+--purple-950:  #410071;
+--purple-900:  #5F0D96;
+--purple-800:  #730EBB;
+--purple-700:  #7E09D7;
+--purple-600:  #9C19FF;
+--purple-500:  #AF3EFF;
+--purple-400:  #C573FF;
+--purple-300:  #DBAAFF;
+--purple-200:  #EBCFFF;
+--purple-100:  #F4E5FF;
+--purple-50:  #FAF4FF;
+
+
+--green: #00bf8e;
+--green-950:  #003028;
+--green-900:  #005544;
+--green-800:  #006752;
+--green-700:  #008366;
+--green-600:  #00A47A;
+--green-500:  #00BF8E;
+--green-400:  #25E2AB;
+--green-300:  #63F2C4;
+--green-200:  #A0FAD8;
+--green-100:  #CDFEE9;
+--green-50:  #EAFFF7;
+
+
+--orange: #ef810c;
+--orange-950:  #441304;
+--orange-900:  #772910;
+--orange-800:  #91310F;
+--orange-700:  #B2400B;
+--orange-600:  #D76008;
+--orange-500:  #EF810C;
+--orange-400:  #F9A626;
+--orange-300:  #FABF4F;
+--orange-200:  #FCD88B;
+--orange-100:  #FDEDC8;
+--orange-50:  #FFF9EB;
+
+
+--blue: #1463f3;
+--blue-950:  #142757;
+--blue-900:  #193D8F;
+--blue-800:  #1843B5;
+--blue-700:  #1552E0;
+--blue-600:  #1463F3;
+--blue-500:  #3388FE;
+--blue-400:  #59ABFF;
+--blue-300:  #8ECAFF;
+--blue-200:  #BCDEFF;
+--blue-100:  #DAECFF;
+--blue-50:  #EEF7FF;
+
+
+--mint: #00A4A1;
+--mint-950:  #003234;
+--mint-900:  #0C5555;
+--mint-800:  #086767;
+--mint-700:  #028381;
+--mint-600:  #00A4A1;
+--mint-500:  #00C7BE;
+--mint-400:  #19E8DB;
+--mint-300:  #4DFBEB;
+--mint-200:  #8EFFF2;
+--mint-100:  #C6FFF8;
+--mint-50:  #EEFFFC;
+
+
+--cyan: #209CD7;
+--cyan-950:  #0D2D44;
+--cyan-900:  #144766;
+--cyan-800:  #11557B;
+--cyan-700:  #106494;
+--cyan-600:  #127DB7;
+--cyan-500:  #209CD7;
+--cyan-400:  #32ADE6;
+--cyan-300:  #87CEF2;
+--cyan-200:  #BFE3F8;
+--cyan-100:  #E2F2FC;
+--cyan-50:  #F1F9FE;
+
+
+--teal: #249EB6;
+--teal-950:  #112E3B;
+--teal-900:  #214858;
+--teal-800:  #235667;
+--teal-700:  #21677D;
+--teal-600:  #20809A;
+--teal-500:  #249EB6;
+--teal-400:  #30B0C7;
+--teal-300:  #7CD6E4;
+--teal-200:  #B1E8F0;
+--teal-100:  #D6F3F7;
+--teal-50:  #EFFCFC;
+
+
+--indigo: #7178E3;
+--indigo-950:  #202046;
+--indigo-900:  #363779;
+--indigo-800:  #3D3B98;
+--indigo-700:  #4A46BC;
+--indigo-600:  #5856D6;
+--indigo-500:  #7178E3;
+--indigo-400:  #8C99ED;
+--indigo-300:  #ADBCF4;
+--indigo-200:  #CCD7F9;
+--indigo-100:  #E3EAFC;
+--indigo-50:  #F0F4FD;
+
+
+
+
+
+
+/*------------------- END COLOR ROOT----------------------*/
+
+
+
+
+--desktop-display-font-size: 64px;
+--desktop-main-heading-font-size: 30px;
+--desktop-body-heading-font-size: 18px;
+--desktop-big-body-font-size: 24px;
+--desktop-body-font-size: 16px;
+--desktop-big-label-font-size: 26px;
+--desktop-label-font-size: 18px;
+--desktop-smallest-font-size: 14px;
+--desktop-footer-font-size: 14px;
+--desktop-micro-font-size: 11px;
+--desktop-macro-font-size: 10px;
+
+
+--tablet-display-font-size: 60px;
+--tablet-main-heading-font-size: 26px;
+--tablet-body-heading-font-size: 18px;
+--tablet-big-body-font-size: 20px;
+--tablet-body-font-size: 16px;
+--tablet-big-label-font-size: 22px;
+--tablet-label-font-size: 18px;
+--tablet-smallest-font-size: 14px;
+--tablet-footer-font-size: 14px;
+--tablet-micro-font-size: 11px;
+--tablet-macro-font-size: 10px;
+
+
+
+--mobile-display-font-size: 30px;
+--mobile-main-heading-font-size: 20px;
+--mobile-body-heading-font-size: 18px;
+--mobile-big-body-font-size: 18px;
+--mobile-body-font-size: 16px;
+--mobile-big-label-font-size: 20px;
+--mobile-label-font-size: 18px;
+--mobile-smallest-font-size: 14px;
+--mobile-footer-font-size: 14px;
+--mobile-micro-font-size: 11px;
+--mobile-macro-font-size: 10px;
+
+
+
+/*-------------------text line height----------------------*/
+
+--big-font-line-height: 90%;
+--medium-font-line-height: 130%;
+--small-font-line-height: 150%;
+
+/*-------------------border radius----------------------*/
+
+--border-radius-1: 5px;
+--border-radius-2: 10px;
+
+/*-------------------transition----------------------*/
+
+--transition: all 0.5s ease;
+
+/*-------------------margin----------------------*/
+
+--margin-top: 100px;
+--margin-bottom: 100px;
+
+/*-------------------END----------------------*/
+
+}
+
+
+
+
+
+
+
+/*------------------- GENERAL STYLES----------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: var(--text-black);
+}
+
+
+
+
+body {
+  font-family: 'montserrat', 'sans-serif', 'poppins';
+  overflow-x: hidden;
+  background-color: var(--backgroud-color);
+}
+
+
+
+/*----------
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+-----*/
+
+
+
+
+.full-container {
+  width: 90%;
+  max-width: 90%;
+  margin-inline: auto;
+}
+
+
+
+.medium-container {
+  width: 70%;
+  max-width: 70%;
+  margin-inline: auto;
+}
+
+
+
+.mobile-container {
+  width: 98%;
+  max-width: 98%;
+  margin-inline: auto;
+}
+
+
+.blur {
+  background: rgba(0, 0, 0, .1);
+  backdrop-filter: blur(50px);
+}
+
+
+
+.general-button {
+  width: fit-content;
+  padding: 10px 30px;
+  background-color: #1463f3;
+  color: white;
+  border: none;
+  margin: 50px;
+}
+
+
+
+/*-------------------END----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.background-picture {
+  min-height: 100vh;
+  background: url('./images/background.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.3rem 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .1);
+  backdrop-filter: blur(50px);
+  z-index: -1;
+}
+
+
+
+
+
+
+/*------------header gradient color code-------------------------*/
+.header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .4), transparent);
+  transition: .5s ;
+}
+
+.header:hover::after {
+  left: 100%;
+}
+/*------------end-------------------------*/
+
+
+
+
+
+
+
+.logo {
+  font-size: var(--desktop-label-font-size);
+  color: var(--text-black);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+.navbar a {
+  font-size: var(--desktop-body-font-size);
+  color: var(--text-black);
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 2.5rem;
+}
+
+
+
+#check {
+  z-index: 100;
+  opacity: 0;
+  width: 30px;
+  height: 30px;
+}
+
+
+.icons {
+  position: absolute;
+  right: 5%;
+  font-size: 2.2rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+
+.menu {
+  font-size: 2.2rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========================================================================MEDIA QUERIES FOR SMALL DEVICES=======================================================================================================================*/
+
+@media screen and (max-width: 992px) {
+
+
+
+  .header {
+    padding: 1.3rem 5%;
+  }
+
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========================================================================MEDIA QUERIES FOR SMALL DEVICES=======================================================================================================================*/
+
+@media screen and (max-width: 768px) {
+
+
+
+  .icons {
+    display: block;
+  }
+
+
+
+  .icons {
+    display: inline-flex;
+  }
+
+
+  .icons #close-icon {
+    display: none;
+  }
+
+
+
+
+  .menu {
+    display: block;
+  }
+
+
+
+
+  /*------------code to switch icons-------------------------*/
+
+  #check:checked~.icons #menu-icon {
+    display: none;
+  }
+
+
+  #check:checked~.icons #close-icon {
+    display: block;
+  }
+
+/*------------end-------------------------*/
+
+
+
+
+
+
+
+
+/*------------code to reconstruct the nave bar links-------------------------*/
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, 0, 0.4);
+/*----------main nav direction animation manipulation-----------------*/
+    width: 0;
+    height: 19.7rem;
+    overflow: hidden;
+    transition: .3s ease;
+  }
+
+
+  /*----------main nav direction animation manipulation-----------------*/
+  #check:checked~.navbar {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+  .navbar a {
+    display: block;
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+    text-align: center;
+ /*----------main text direction manipulation-----------------*/    
+    transform: translateX(-50px);
+    transition: .3s ease;
+ /*----------main text direction animation-----------------*/  
+    opacity: 0;
+  }
+
+
+/*----------main text direction manipulation-----------------*/   
+  #check:checked~.navbar a {
+    transform: translateX(0);
+/*----------main text direction animation-----------------*/  
+    opacity: 1;
+    transition-delay: calc(.15s * var(--i));
+  }
+
+
+/*-------------end------------------*/
+
+
+
+
+
+
+
+
+
+
+}
+
