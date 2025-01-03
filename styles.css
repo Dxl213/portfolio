@@ -600,6 +600,29 @@ section {
   margin-top: var(--margin-top);
 }
 
+
+
+
+.cursor {
+  display: inline-block;
+  background-color: #fff;
+  width: 2px;
+  animation: blink 0.7s step-end infinite;
+  color: var(--main);
+}
+
+@keyframes blink {
+  50% {
+    background-color: transparent;
+  }
+}
+
+
+
+
+
+
+
 .profile-bio {
   margin-top: 30px;
   font-size: var(--desktop-big-label-font-size);
@@ -619,6 +642,11 @@ section {
   font-weight: 400;
 }
 
+.arrow-down1 {
+  display: none;
+}
+
+
 .links {
   display: flex;
   justify-content: space-between;
@@ -629,6 +657,204 @@ section {
 .links a {
   color: var(--green-500);
 }
+
+
+
+
+
+
+
+
+
+
+
+.scroll-container {
+  margin-top: var(--margin-top);
+}
+
+.skill-head {
+  font-size: var(--desktop-body-heading-font-size);
+  font-weight: 600;
+  font-style: italic;
+}
+
+.scroll-content {
+  display: flex;
+  gap: 120px;
+  margin-top: 20px;
+  animation: scroll 35s linear infinite;
+}
+
+
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-230%);
+  }
+}
+
+
+
+.skills-con {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.skills-con img {
+  width: 20%;
+  margin-top: 21px;
+}
+
+.skill-progress-con {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.skill-progress-con p {
+  font-size: var(--desktop-body-font-size);
+}
+
+
+.progress-empty {
+  width: 140px;
+  height: 7px;
+  background-color: var(--transparent-white-600);
+}
+
+
+.progress-fill {
+  width: 120px;
+  height: 7px;
+  background-color: var(--pop);
+  position: absolute;
+  top: 29px;
+}
+
+.skill-logo-color {
+  background-color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about {
+  margin-top: var(--margin-top);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--transparent-white-100);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
+.about-text {
+  font-size: var(--desktop-body-font-size);
+}
+
+
+.project-info {
+  display: flex;
+  align-items: center;
+  margin-top: var(--margin-top);
+}
+
+
+
+.project-info p {
+  color: var(--grey-400);
+}
+
+
+
+.project-info i {
+  color: var(--grey-400);
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
+  border-radius: 40px;
+  border: 2px solid var(--grey-400);
+  margin-left: 30vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -820,6 +1046,138 @@ section {
 
 
 /*-------------end------------------*/
+
+
+
+
+
+
+
+
+/*-------------HOME PAGE STYLING------------------*/
+
+
+.profile-bio {
+  margin-top: 30px;
+  font-size: var(--desktop-label-font-size);
+  font-weight: 100;
+}
+
+
+.links-con {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+
+
+.links {
+  font-size: var(--desktop-micro-font-size);
+}
+
+.arrow-down1 {
+  display: flex;
+  margin-left: 2vw;
+}
+
+.arrow-right1 {
+  display: none;
+}
+
+.links-con p {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.scroll-content {
+  display: flex;
+  gap: 60px;
+  margin-top: 20px;
+  animation: scroll 35s linear infinite;
+  overflow-x: auto;
+}
+
+
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+
+
+.project-info i {
+  margin-left: 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

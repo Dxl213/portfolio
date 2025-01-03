@@ -1,0 +1,30 @@
+<i class="uil uil-apps"></i>
+
+
+<i class="uil uil-angle-down"></i>
+
+<i class="uil uil-angle-up"></i>
+
+<i class="uil uil-angle-right"></i>
+
+<i class="uil uil-angle-left"></i>
+
+<i class="uil uil-arrow-up-right"></i>
+
+<i class="uil uil-arrow-up-left"></i>
+
+<i class="uil uil-arrow-down-right"></i>
+
+<i class="uil uil-arrow-down-left"></i>
+
+<i class="uil uil-arrow-down"></i>
+
+<i class="uil uil-arrow-up"></i>
+
+<i class="uil uil-arrow-circle-left"></i>
+
+<i class="uil uil-arrow-circle-right"></i>
+
+<i class="uil uil-arrow-right"></i>
+
+<i class="uil uil-arrow-left"></i>
