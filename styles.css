@@ -12,17 +12,17 @@
 
 
 --main: #fe9700;
---main-950:  #2A2C2D;
---main-900:  #4C4E4F;
---main-800:  #585B5C;
---main-700:  #686D6E;
---main-600:  #7E8384;
---main-500:  #999D9E;
---main-400:  #B1B4B5;
---main-300:  #CFD2D2;
---main-200:  #E4E6E6;
---main-100:  #F1F2F2;
---main-50:  #F7F8F8;
+--main-950:  #481700;
+--main-900:  #7c300b;
+--main-800:  #983a08;
+--main-700:  #bb4c02;
+--main-600:  #e27000;
+--main-500:  #fe9700;
+--main-400:  #ffbb1b;
+--main-300:  #ffd146;
+--main-200:  #ffe585;
+--main-100:  #fff2c5;
+--main-50:  #fffbea;
 
 
 --pop: #455ce9;
@@ -333,9 +333,9 @@
 
 /*-------------------text line height----------------------*/
 
---big-font-line-height: 90%;
---medium-font-line-height: 130%;
---small-font-line-height: 150%;
+--line-height-big-font: 90%;
+--line-height-medium-font: 130%;
+--line-height-small-font: 150%;
 
 /*-------------------border radius----------------------*/
 
@@ -479,7 +479,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1.3rem 8%;
+  padding: 1.3rem 5.3%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -528,7 +528,7 @@ section {
 
 .logo {
   font-size: var(--desktop-label-font-size);
-  color: var(--text-color);
+  color: var(--main);
   text-decoration: none;
   font-weight: 700;
 }
@@ -583,6 +583,52 @@ section {
 
 
 
+
+
+
+
+/*-------------------------Home page styling-------------------------*/
+
+.profile-img {
+  width: 20%;
+  margin-top: var(--margin-top);
+}
+
+.profile-name {
+  font-size: var(--desktop-main-heading-font-size);
+  font-weight: 500;
+  margin-top: var(--margin-top);
+}
+
+.profile-bio {
+  margin-top: 30px;
+  font-size: var(--desktop-big-label-font-size);
+  font-weight: 100;
+}
+
+
+.links-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--margin-top);
+}
+
+.links-con p {
+  font-size: var(--desktop-body-heading-font-size);
+  font-weight: 400;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: var(--desktop-smallest-font-size);
+}
+
+.links a {
+  color: var(--green-500);
+}
 
 
 
