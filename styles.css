@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
 
 
 
@@ -13,7 +11,7 @@
 /*------------------- PROJECT COLOR ROOT----------------------*/
 
 
---main: #999d9e;
+--main: #fe9700;
 --main-950:  #2A2C2D;
 --main-900:  #4C4E4F;
 --main-800:  #585B5C;
@@ -63,11 +61,14 @@
 
 --white:  #ffffff;
 --text-grey: #828282;
+--text-color: #ffffff;
 --text-black: #000000;
 --footer-color: #454545;
---background-color: #ffffff;
+--background-color: #100f0f;
 --black-first:  #000000;
 --black-second:  #1c1d20;
+--black-third:  #2a2e39;
+--black-fourth:  #131722;
 
 
 --system-bg: #2C2C2C;
@@ -369,7 +370,7 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   list-style: none;
-  color: var(--text-black);
+  color: var(--text-color);
 }
 
 
@@ -378,7 +379,7 @@
 body {
   font-family: 'montserrat', 'sans-serif', 'poppins';
   overflow-x: hidden;
-  background-color: var(--backgroud-color);
+  background-color: var(--background-color);
 }
 
 
@@ -478,7 +479,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1.3rem 10%;
+  padding: 1.3rem 8%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -527,7 +528,7 @@ section {
 
 .logo {
   font-size: var(--desktop-label-font-size);
-  color: var(--text-black);
+  color: var(--text-color);
   text-decoration: none;
   font-weight: 700;
 }
@@ -535,10 +536,18 @@ section {
 
 .navbar a {
   font-size: var(--desktop-body-font-size);
-  color: var(--text-black);
+  color: var(--text-color);
   text-decoration: none;
   font-weight: 500;
   margin-left: 2.5rem;
+}
+
+.border-round {
+  width: fit-content;
+  padding: 5px 20px;
+  border: 2px solid var(--main);
+  height: 50px;
+  border-radius: 40px;
 }
 
 
