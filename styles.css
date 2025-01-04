@@ -730,7 +730,7 @@ section {
 .progress-empty {
   width: 140px;
   height: 7px;
-  background-color: var(--transparent-white-600);
+  background-color: var(--transparent-white-300);
 }
 
 
