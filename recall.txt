@@ -28,3 +28,12 @@
 <i class="uil uil-arrow-right"></i>
 
 <i class="uil uil-arrow-left"></i>
+
+
+
+
+
+
+
+
+<i class="uil uil-file-minus"></i>

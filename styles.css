@@ -670,12 +670,16 @@ section {
 
 .scroll-container {
   margin-top: var(--margin-top);
+  overflow: hidden;
 }
 
 .skill-head {
   font-size: var(--desktop-body-heading-font-size);
   font-weight: 600;
-  font-style: italic;
+  width: fit-content;
+  padding: 10px 20px;
+  border: 2px solid var(--grey-400);
+  border-radius: 40px;
 }
 
 .scroll-content {
@@ -743,6 +747,20 @@ section {
 }
 
 
+.skill-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+.skill-nav i {
+  display: none;
+  font-size: 40px;
+  color: var(--grey-400);
+}
+
 
 
 
@@ -762,7 +780,11 @@ section {
   gap: 20px;
   background-color: var(--transparent-white-100);
   padding: 20px;
-  border-radius: 20px;
+}
+
+.skill-head2 {
+  font-size: var(--desktop-body-heading-font-size);
+  font-weight: 600;
 }
 
 
@@ -773,7 +795,6 @@ section {
 
 .project-info {
   display: flex;
-  align-items: center;
   margin-top: var(--margin-top);
 }
 
@@ -804,6 +825,43 @@ section {
 
 
 
+.gallary {
+  margin-top: 10px;
+}
+
+.gallary-con {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+.line-con {
+  position: relative;
+}
+
+.line {
+  border: 1px solid var(--grey-900);
+  width: 100%;
+  margin-top: 10px;
+}
+
+.line-fill {
+  position: absolute;
+  border: 2px solid var(--grey-400);
+  width: 150px;
+  margin-top: 10px;
+  border-radius: 2px;
+  bottom: -1px;
+}
+
+
+.skill-head3 {
+  font-size: var(--desktop-body-heading-font-size);
+  font-weight: 600;
+  margin-top: 20px;
+}
 
 
 
@@ -812,23 +870,128 @@ section {
 
 
 
+.projects {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+
+.project-con {
+  width: 100%;
+  border: 2px solid var(--grey-950);
+  border-radius: 8px;
+}
+
+
+.project-con img {
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+
+.project-text {
+  padding: 20px;
+}
+
+.project-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+
+.project-name p {
+  font-size: var(--desktop-body-font-size);
+}
+
+
+.project-name i {
+  font-size: 25px;
+}
+
+.project-text-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project-text-2 p {
+  font-weight: 600;
+  font-size: var(--desktop-body-font-size);
+}
+
+.project-green {
+  width: fit-content;
+  padding: 1px 8px;
+  background-color: rgba(0, 128, 0, 0.148);
+  color: var(--grey-300);
+  border-radius: 2px;
+}
+
+
+.project-orange {
+  width: fit-content;
+  padding: 1px 8px;
+  background-color: rgba(255, 166, 0, 0.26);
+  color: var(--grey-300);
+  border-radius: 2px;
+}
+
+
+.project-yellow {
+  width: fit-content;
+  padding: 1px 8px;
+  background-color: rgba(255, 255, 0, 0.179);
+  color: var(--grey-300);
+  border-radius: 2px;
+}
 
 
 
+.project-grey {
+  width: fit-content;
+  padding: 1px 8px;
+  background-color: rgba(128, 128, 128, 0.175);
+  color: var(--grey-300);
+  border-radius: 2px;
+}
 
 
 
+.footer {
+  margin-top: var(--margin-top);
+}
 
 
+.footer-line {
+  border: 1px solid var(--grey-900);
+  width: 100%;
+}
+
+.footer-text {
+  margin-top: 20px;
+  margin-bottom: var(--margin-bottom);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 
 
+.footer-text a {
+  font-size: var(--desktop-micro-font-size);
+  color: var(--footer-color);
+}
 
-
-
-
-
-
-
+.footer-text p {
+  font-size: var(--desktop-smallest-font-size);
+  color: var(--footer-color);
+}
 
 
 
@@ -1056,6 +1219,25 @@ section {
 
 /*-------------HOME PAGE STYLING------------------*/
 
+.links-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--margin-top);
+  width: 98%;
+  max-width: 98%;
+  margin-inline: auto;
+}
+
+
+
+
+
+
+
+
+
+
 
 .profile-bio {
   margin-top: 30px;
@@ -1093,21 +1275,11 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
 .scroll-content {
   display: flex;
-  gap: 60px;
+  gap: 120px;
   margin-top: 20px;
-  animation: scroll 35s linear infinite;
-  overflow-x: auto;
+  animation: scroll 50s linear infinite;
 }
 
 
@@ -1117,9 +1289,18 @@ section {
     transform: translateX(0);
   }
   to {
-    transform: translateX(0);
+    transform: translateX(-800%);
   }
 }
+
+
+
+
+
+.skill-nav i {
+  display: flex;
+}
+
 
 
 
@@ -1131,7 +1312,18 @@ section {
 
 
 
+.projects {
+  grid-template-columns: 1fr;
+}
 
+
+.project-text-2 {
+  flex-direction: column;
+}
+
+.project-text-2 p {
+  width: 100%;
+}
 
 
 
