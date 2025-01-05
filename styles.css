@@ -1255,7 +1255,6 @@ section {
 
 .key-finding-con {
   margin-top: 17px;
-  margin-left: 4vw;
 }
 
 
@@ -1263,22 +1262,44 @@ section {
   margin-top: 30px;
 }
 
-
-.person-img-con {
-  display: flex;
-  align-items: center;
+.persona-conn {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
-.person-img-con img {
-  width: 100%;
+.dim1 {
+  color: var(--grey-200);
 }
+
+.persona-detail {
+  background-color: var(--black-fourth);
+  padding: 10px;
+}
+
+
+.ee1 {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*-------------------------------------------------*/
 
 .info-arch {
-  margin-top: 40px;
+  margin-top: 60px;
   display: flex;
   gap: 30px;
 }
@@ -1328,6 +1349,30 @@ section {
 .prototype video {
   width: 100%;
   margin-top: 20px;
+}
+
+
+.align1 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.align1 p, 
+.align1 i {
+  color: var(--main);
+}
+
+
+.align1 p {
+  font-style: italic;
+}
+
+
+.align1 i {
+  font-size: 30px;
 }
 
 
@@ -1853,6 +1898,10 @@ section {
 
 
 /*-------------------------------------------------*/
+
+.persona-conn {
+  grid-template-columns: 1fr;
+}
 
 .person-img-con {
   flex-direction: column;
