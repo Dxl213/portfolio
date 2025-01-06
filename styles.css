@@ -904,6 +904,30 @@ section {
   border-radius: 8px;
 }
 
+.link-con3 {
+  position: relative;
+}
+
+.view {
+  position: absolute;
+  top: -25px;
+  left: 1vw;
+  font-size: var(--desktop-macro-font-size);
+  font-weight: 400;
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  background-color: var(--pop);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
 
 .project-con img {
   width: 100%;
@@ -1396,10 +1420,34 @@ section {
   gap: 10px;
 }
 
+/*--------------------graphic page styling-----------------------------*/
 
 
 
+.graphics {
+  margin-top: 80px;
+}
 
+
+
+.img-con1 img,
+.img-con2 img,
+.img-con3 img {
+  width: 100%;
+  margin-top: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+.img-con1,
+.img-con2,
+.img-con3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
 
 
 
@@ -1928,6 +1976,25 @@ section {
   grid-template-columns: 1fr ;
 }
 
+
+
+/*--------------------graphic page styling-----------------------------*/
+
+
+.img-con1 img,
+.img-con2 img,
+.img-con3 img {
+  width: 100%;
+  margin-top: 0px;
+}
+
+
+.img-con1,
+.img-con2,
+.img-con3 {
+  flex-direction: column;
+  gap: 0px;
+}
 
 
 
