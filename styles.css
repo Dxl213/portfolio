@@ -630,7 +630,6 @@ section {
 
 
 .profile-bio {
-  margin-top: 30px;
   font-size: var(--desktop-big-label-font-size);
   font-weight: 400;
   color: var(--grey-600);
@@ -655,6 +654,7 @@ section {
 .skill-head2 {
   font-size: var(--desktop-body-heading-font-size);
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 
@@ -1467,11 +1467,12 @@ section {
 .img-con2 img,
 .img-con3 img {
   width: 100%;
-  margin-top: 20px;
   transition: all 0.5s ease-in-out;
 }
 
 
+
+/*---------------------
 
 .img-con1,
 .img-con2,
@@ -1481,6 +1482,19 @@ section {
   justify-content: space-between;
   gap: 20px;
 }
+
+--------------------------*/
+
+
+.img-con2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+
+
 
 
 .margin33 {
@@ -1556,7 +1570,19 @@ section {
 }
 
 
+.show-case {
+  margin-top: 30px;
+}
 
+.show-case-con img {
+  width: 100%;
+}
+
+.show-case-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
 
 
 
@@ -1690,6 +1716,11 @@ section {
 }
 
 
+/*-------------------------------------------------*/
+
+.img-con2 {
+  grid-template-columns: 1fr 1fr;
+}
 
 
 
@@ -1848,9 +1879,13 @@ section {
 
 
 .profile-bio {
-  margin-top: 30px;
+  margin-top: 0;
   font-size: var(--desktop-label-font-size);
   font-weight: 100;
+}
+
+.skill-head2 {
+  margin-bottom: 8px;
 }
 
 
@@ -2117,15 +2152,12 @@ section {
   margin-top: 0px;
 }
 
+/*----------------------------------------------*/
 
-.img-con1,
-.img-con2,
-.img-con3 {
-  flex-direction: column;
-  gap: 0px;
+
+.img-con2 {
+  grid-template-columns: 1fr;
 }
-
-
 
 
 /*--------------------website gallary styling-----------------------------*/
@@ -2140,6 +2172,10 @@ section {
   margin-top: 30px;
 }
 
+
+.show-case-con {
+  grid-template-columns: 1fr;
+}
 
 
 
