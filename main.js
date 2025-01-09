@@ -1,4 +1,16 @@
-const words = ["Hello...", "My Name is Clinton Omohan...", "I'm a Product Designer...", "and a Full-Stack Web Developer."];
+const words = ["Hello.", 
+  "Need a modern website? Let's build it!", 
+  "How can I improve your user experience?", 
+  "Looking for a sleek design? I can help!", 
+  "let’s build something amazing!", 
+  "Your ideas, my code—let's create magic!"];
+
+
+
+
+
+
+
 const textElement = document.getElementById("text");
 let wordIndex = 0;
 let charIndex = 0;

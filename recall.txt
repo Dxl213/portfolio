@@ -37,3 +37,33 @@
 
 
 <i class="uil uil-file-minus"></i>
+
+
+
+
+
+
+
+
+
+
+
+"Struggling with website functionality? I’m here to simplify it for you."
+"Your ideas, my code—let’s build something amazing!"
+"Looking for a sleek and user-friendly interface? I’ve got you covered."
+"What’s your vision for the perfect website? I’ll bring it to life!"
+"How can I improve your site’s user experience today?"
+"Your goals, my expertise—let’s create a digital masterpiece!"
+"Need a website revamp? I’ll make it seamless and stunning."
+"What’s missing in your web presence? I’ll help fill the gap."
+"Let’s turn clicks into conversions with a better user experience."
+"How can I make your website stand out?"
+"Ready to elevate your online presence? Let’s collaborate!"
+"Have a project in mind? I’ll design it with precision and care."
+"Need a developer who understands your vision? That’s me!"
+
+
+"Need a modern website? Let's build it!"
+"How can I improve your user experience?"
+"Looking for a sleek design? I can help!"
+"Your ideas, my code—let's create magic!"
